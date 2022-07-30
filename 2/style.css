@@ -1,0 +1,122 @@
+
+/* This is to set the website colour and fonts*/
+section {
+ height: 700px;
+  padding: 0;
+  font-family: sans-serif;
+   background-color: rgb(242, 238, 233);
+  border: solid black 1px;  
+  }
+
+.hero{
+height: 100px;
+background-color:black;
+border: solid black 1px;  
+color: white;
+font-size: 20px;
+}
+/* This is to style the navigation bar */
+nav {
+  display: flex;
+  justify-content:center;
+
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  width: 150px;
+  text-decoration: none;
+
+}
+/* This turns the nav bar into red colur when mouse hovers over it */
+nav ul li:hover{
+  color: red;
+
+}
+
+h1 {
+  font-size: 80px;
+  color: black;
+  margin-left: 50px;
+  
+}
+
+/*The span is there to style part of the sentence in a different colour*/
+span {
+  color:rgb(221, 95, 49);
+  font-weight: bolder;
+} 
+
+p {
+  font-size: 40px;
+  font-weight:lighter;
+  color: black;
+  margin-top: -50px;
+  margin-left: 50px;
+  
+}
+
+.socialmedia {
+  display: flex;
+  margin: 50px;
+  justify-content: space-around;
+}
+
+.about {
+  font-size: 20px;
+  font-weight: lighter;
+  color: black;
+  padding: 30px;
+}
+
+h2 {
+  font-size: 50px;
+  color: rgb(221, 95, 49);
+}
+
+/*This is tp style the image the border-radius gives the imagerounded edges*/
+.picture {
+  width: 350px;
+  border-radius: 250px;
+  margin-left: 500px;
+}
+ 
+
+h3 {
+   font-size: 50px;
+  color: rgb(221, 95, 49);
+  margin: 50px;
+}
+
+p3 {
+  font-size: 30px;
+  color: black;
+  margin-left: 50px;
+  font-weight: bold;1
+  
+}
+
+.contact {
+height: 200px;
+border: solid black 1px;
+background-color: rgb(221, 95, 49);
+}
+
+.contactme {
+
+margin-top: 100px;
+margin-left: 300px;
+  width: 150px;
+  height: 30px;
+  background-color: black;
+  color: ghostwhite;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 30px;
+
+}
